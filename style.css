@@ -1,0 +1,38 @@
+a:link{
+    background-color: rgb(25, 210, 216);
+    color: cornflowerblue;
+   border: darkslategray solid 1px;
+   border-radius: 10px;
+  
+}
+body{
+    background-color: blanchedalmond;
+    color: rgb(110, 109, 110);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a:visited{
+    background-color: rgb(131, 9, 31);
+    color:rgb(204, 124, 19);
+}
+a:hover{
+    background-color: darkred;
+    color: burlywood;
+    
+}
+a:active{
+
+    background-color: rgb(27, 13, 41);
+    color: white;
+}
+a{
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#index #menu .index a,
+#biografia #menu .biografia a,
+#campanha #menu .campanha a,
+#contato #menu .contato a{
+    background-color: blanchedalmond;
+}
